@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'kiona';
+    src: url(../fontes/Kiona-Regular.ttf) format('opentype');
+    font-weight: normal;
+    font-size: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor0: #f1f1ff1;
+    --cor1: #B60070;
+    --cor2: #000000;
+
+    --fonte-padrao: "Montserrat", sans-serif;
+    --fonte-destaque: "Kiona", Courier, monospace;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body, html {
+
+    background-color: black;
+    font-family: var(--fonte-padrao);
+    color: white;
+}
+
+
+main {
+
+    display: flex;
+    flex-direction: row; 
+    align-items: flex-start; 
+    min-width: 300px;
+    max-width: 1000px;
+    margin-bottom: 30px;
+    margin-left: 470px;
+    padding: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+nav {
+
+    
+    position: fixed;
+    top: 0;
+    background-color: var(--cor1);
+    width: 250px;
+    height: 100vh;
+    font-size: 1em;
+    padding-top: 60px;
+    margin-left: 200px;
+    
+    
+}
+
+menu > ul {
+    list-style-type: none;
+
+}
+
+menu > ul > li > a {
+
+
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: left;
+    font-family: var(--fonte-destaque);
+    color: white;
+   
+
+}
