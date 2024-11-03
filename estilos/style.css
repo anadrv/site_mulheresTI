@@ -10,7 +10,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --cor0: #f1f1ff1;
+
     --cor1: #B60070;
     --cor2: #000000;
 
@@ -102,7 +102,7 @@ main > .imagem {
     background-size: cover;
     background-position: center;
     border-radius: 20px;
-    height: 350px;
+    height: 300px;
     width: 83%;
     margin-top: 20px;
     margin-left: 5%;
@@ -125,23 +125,36 @@ main > .imagem > .link {
     margin-top: -40px; 
 }
 
-main > .imagem > .link > a {
+main > .imagem > .link > a.botao {
 
+    display: inline-block;
     font-family: var(--fonte-destaque);
     color: white;
     text-decoration: none;
     padding: 10px; 
-    margin-top: 50px;
+    background-color: #00000046;
+    border: none;
+    border-radius: 5px;
+    margin-top: -10px;
     margin-left: 150px;
-    background-color: transparent; 
+    cursor: pointer;
 }
 
-main > .imagem > .link > a:hover {
+main > .imagem > .link > a.botao:hover {
+
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.1); 
+    background-color: #b600708c; 
     color: white;
     transition: box-shadow 0.3s ease; 
+}
+
+main > p {
+
+   font-family: var(--fonte-destaque); 
+   margin-top: 20px;
+   text-align: center;
+   font-size: 1em;
 }
 
 
