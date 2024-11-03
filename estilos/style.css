@@ -30,6 +30,7 @@ body, html {
     background-color: black;
     font-family: var(--fonte-padrao);
     color: white;
+    overflow-x: hidden;
 }
 
 menu {
@@ -47,10 +48,6 @@ i#menu {
     cursor: pointer;
 }
 
-i {
-    
-    padding-left: 30px;
-}
 
 menu > ul {
 
@@ -94,7 +91,10 @@ nav a:hover {
 }
 
 main {
+
     flex-direction: column; 
+    width: 100vw;
+    height: 100vh;
 }
 
 
@@ -149,7 +149,7 @@ main > .imagem > .link > a.botao:hover {
 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
     border-radius: 10px;
-    background-color: #b600708c; 
+    background-color: #BA44FF; 
     color: white;
     transition: box-shadow 0.3s ease; 
 }
@@ -162,4 +162,12 @@ main > p {
    font-size: 1em;
 }
 
+footer > p {
+
+    text-align: center;
+    font-family: var(--fonte-padrao);
+    font-size: 0.8em;
+    padding-bottom: 10px;
+    
+}
 
