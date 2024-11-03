@@ -92,3 +92,56 @@ nav a:hover {
     color: white;
     transition: box-shadow 0.3s ease; /* Transição suave */
 }
+
+main > .imagem {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #22402B url(../imagens/imagempodcast.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    height: 350px;
+    width: 83%;
+    margin-top: 20px;
+    margin-left: 5%;
+    position: relative;
+    padding: 20px; 
+}
+
+main > .imagem > h1 {
+
+    font-family: var(--fonte-destaque);
+    color: white;
+    font-size: 2em; 
+    text-align: left;
+    margin: 0; 
+}
+
+main > .imagem > .link {
+
+
+    margin-top: -40px; 
+}
+
+main > .imagem > .link > a {
+
+    font-family: var(--fonte-destaque);
+    color: white;
+    text-decoration: none;
+    padding: 10px; 
+    margin-top: 50px;
+    margin-left: 150px;
+    background-color: transparent; 
+}
+
+main > .imagem > .link > a:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    color: white;
+    transition: box-shadow 0.3s ease; 
+}
+
+
