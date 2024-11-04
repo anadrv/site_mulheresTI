@@ -168,6 +168,7 @@ footer > p {
     font-family: var(--fonte-padrao);
     font-size: 0.8em;
     padding-bottom: 10px;
+    transition: all 0.3s ease-in-out;
     
 }
 
