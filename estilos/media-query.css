@@ -116,15 +116,21 @@
     main > p {
 
         font-size: 1.5em;
-        margin-right: 40%;
+        margin: 0 auto; 
+        text-align: center;
+        width: 80%;
+        padding-top: 15px;
 
      }
 
-    
-
     footer > p {
 
-        margin-left: 40%;
+        font-size: 0.8em;
+        width: 80%; /* Ajuste conforme necessário */
+        margin: 0 auto; /* Centraliza horizontalmente */
+        text-align: center; /* Centraliza o texto */
+        padding-top: 15px;
+        padding-bottom: 10px;
      }
 
 }
@@ -248,7 +254,9 @@
 
      footer > p {
 
+        display: auto;
         margin-left: 23%;
+        
      }
     
 }
